@@ -1,5 +1,5 @@
 # Romanian-Sign-Language-Image-Classification
-This repository contains the dataset and the Jupyter notebooks in which the experiments were run for recognizing Romanian Sign Language (RSL) alphabet. 
+This repository contains the dataset and the Jupyter notebooks in which the experiments were run for recognizing Romanian Sign Language (RSL) alphabet. The dataset contains 1000 images for 26 letters of the Romanian alphabet (Î, J, Ș, Ț, Z were excluded since they are represented by moving the hand).
 
 ## Setup 
 In order to run the Jupyter notebooks in this repo, please clone it in a Google Colab with the following comand:
