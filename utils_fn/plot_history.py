@@ -5,12 +5,12 @@ def plot_history(history):
     Plots the training and validation accuracy and loss from a Keras history object.
 
     Parameters:
-    history (dict): Returned history object from `model.fit()`
+    history (dict): Dictionary containing the training history
     """
-    accuracy = history.history["accuracy"]
-    val_accuracy = history.history["val_accuracy"]
-    loss = history.history["loss"]
-    val_loss = history.history["val_loss"]
+    accuracy = history["accuracy"]
+    val_accuracy = history["val_accuracy"]
+    loss = history["loss"]
+    val_loss = history["val_loss"]
     epochs = range(1, len(accuracy) + 1)
 
     # plot accuracy

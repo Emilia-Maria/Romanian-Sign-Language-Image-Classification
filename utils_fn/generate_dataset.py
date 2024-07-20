@@ -30,6 +30,7 @@ def generate_dataset(base_dir, image_size, batch_size):
         image_size=image_size,
         batch_size=batch_size,
         label_mode='categorical',
+        shuffle=False
     )
 
     test_dataset = image_dataset_from_directory(
@@ -37,6 +38,7 @@ def generate_dataset(base_dir, image_size, batch_size):
         image_size=image_size,
         batch_size=batch_size,
         label_mode='categorical',
+        shuffle=False
     )
 
     return train_dataset, validation_dataset, test_dataset
